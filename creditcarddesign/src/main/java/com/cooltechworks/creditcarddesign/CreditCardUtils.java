@@ -10,15 +10,16 @@ import java.util.regex.Pattern;
  */
 public class CreditCardUtils {
     public enum CardType {
-        UNKNOWN_CARD, AMEX_CARD, MASTER_CARD, VISA_CARD, DISCOVER_CARD
+        UNKNOWN_CARD, AMEX_CARD, MASTER_CARD, VISA_CARD, DISCOVER_CARD,VERVE
     }
 
     private static final String PATTERN_AMEX = "^3(4|7)[0-9 ]*";
     private static final String PATTERN_VISA = "^4[0-9 ]*";
     private static final String PATTERN_MASTER = "^5[0-9 ]*";
     private static final String PATTERN_DISCOVER = "^6[0-9 ]*";
+    private static final String PATTERN_VERVE = "^5(5|0)[0-9 ]*";
 
-    public static final int MAX_LENGTH_CARD_NUMBER = 16;
+    public static final int MAX_LENGTH_CARD_NUMBER = 20;
     public static final int MAX_LENGTH_CARD_NUMBER_AMEX = 15;
 
     public static final String CARD_NUMBER_FORMAT = "XXXX XXXX XXXX XXXX";
