@@ -22,7 +22,7 @@ public class CreditCardUtils {
     public static final int MAX_LENGTH_CARD_NUMBER = 20;
     public static final int MAX_LENGTH_CARD_NUMBER_AMEX = 15;
 
-    public static final String CARD_NUMBER_FORMAT = "XXXX XXXX XXXX XXXX";
+    public static final String CARD_NUMBER_FORMAT = "XXXX XXXX XXXX XXXX XXX";
     public static final String CARD_NUMBER_FORMAT_AMEX = "XXXX XXXXXX XXXXX";
 
     public static final String EXTRA_CARD_NUMBER = "card_number";
